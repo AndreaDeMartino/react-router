@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  all: unset;
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  li {
+    padding: 0 10px;
+    a.active {
+      color: rgb(208, 126, 126);
+    }
+  }
+}
+
+h1 {
+  margin-bottom: 25px;
+  padding: 20px;
+  background-color: azure;
+}
+
+h5 {
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.home {
+  background-color: #595f72;
+}
+.about {
+  background-color: #575d90;
+}
+
+.listing-page {
+  background: #84a07c;
+}
+
+.product-page {
+  background: #e6f14a;
+  color: black;
+}
+
+.not-found {
+  background: #0d85f5;
+  color: black;
+}
+
+button {
+  margin-top: 20px;
+  padding: 15px 20px;
+  background-color: rgb(208, 126, 126);
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
